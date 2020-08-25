@@ -1,4 +1,4 @@
-# Flash scope support for Spark Java ⚡
+# Flash support for Spark Java ⚡
 
 ![Run tests](https://github.com/mthmulders/spark-flash/workflows/Run%20tests/badge.svg)
 [![SonarCloud quality gate](https://sonarcloud.io/api/project_badges/measure?project=mthmulders_spark-flash&metric=alert_status)](https://sonarcloud.io/dashboard?id=mthmulders_spark-flash)
@@ -11,7 +11,7 @@
 
 ## TL;DR
 
-> This module adds a "flash scope" to [Spark Java](http://sparkjava.com/).
+This module adds a "flash scope" to [Spark Java](http://sparkjava.com/).
 
 ## Flash scope?
 Imagine a server-rendered web application.
