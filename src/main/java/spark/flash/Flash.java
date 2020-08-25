@@ -19,7 +19,6 @@ package spark.flash;
 import spark.Request;
 import spark.Session;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -30,6 +29,9 @@ import java.util.Optional;
 public class Flash {
     static final String FLASH_ATTRIBUTE = "spark.flash.data";
     static final String COUNT_ATTRIBUTE = "spark.flash.count";
+
+    private Flash() {
+    }
 
     private static Map<String, Object> ensureFlashScopeExists(final Request request) {
         final Session session = request.session(true);
