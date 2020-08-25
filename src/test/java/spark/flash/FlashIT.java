@@ -36,7 +36,7 @@ import static java.net.http.HttpRequest.BodyPublishers.noBody;
 import static spark.Service.ignite;
 import static spark.flash.Flash.flash;
 
-public class FlashIT implements WithAssertions {
+class FlashIT implements WithAssertions {
     private static final Logger log = LoggerFactory.getLogger(FlashIT.class);
 
     private static final String PATH = "/flash";
