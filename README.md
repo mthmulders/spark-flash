@@ -6,7 +6,7 @@
 [![SonarCloud technical debt](https://sonarcloud.io/api/project_badges/measure?project=mthmulders_spark-flash&metric=sqale_index)](https://sonarcloud.io/dashboard?id=mthmulders_spark-flash)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=mthmulders/spark-flash)](https://dependabot.com)
 [![Mutation testing badge](https://img.shields.io/endpoint?style=plastic&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fmthmulders%2Fspark-flash%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/mthmulders/spark-flash/master)
-[![Maven Central](https://img.shields.io/maven-central/v/it.mulders.spark-flash/spark-flash.svg?color=brightgreen&label=Maven%20Central)](https://search.maven.org/artifact/it.mulders.clocky/spark-flash)
+[![Maven Central](https://img.shields.io/maven-central/v/it.mulders.spark-flash/spark-flash.svg?color=brightgreen&label=Maven%20Central)](https://search.maven.org/artifact/it.mulders.spark-flash/spark-flash)
 [![](https://img.shields.io/github/license/mthmulders/spark-flash.svg)](./LICENSE)
 
 This module adds a "flash scope" to [Spark Java](http://sparkjava.com/).
