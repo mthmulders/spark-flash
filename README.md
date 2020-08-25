@@ -9,7 +9,9 @@
 [![Maven Central](https://img.shields.io/maven-central/v/it.mulders.spark-flash/spark-flash.svg?color=brightgreen&label=Maven%20Central)](https://search.maven.org/artifact/it.mulders.spark-flash/spark-flash)
 [![](https://img.shields.io/github/license/mthmulders/spark-flash.svg)](./LICENSE)
 
-This module adds a "flash scope" to [Spark Java](http://sparkjava.com/).
+## TL;DR
+
+> This module adds a "flash scope" to [Spark Java](http://sparkjava.com/).
 
 ## Flash scope?
 Imagine a server-rendered web application.
