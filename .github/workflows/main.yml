@@ -20,6 +20,8 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 11
+          distribution: 'adopt'
+          check-latest: true
 
       - name: Set up cache for ~./m2/repository
         uses: actions/cache@v2.1.4
@@ -51,6 +53,8 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 11
+          distribution: 'adopt'
+          check-latest: true
 
       - name: Run Pitest
         run: mvn test-compile org.pitest:pitest-maven:mutationCoverage
@@ -79,6 +83,8 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 11
+          distribution: 'adopt'
+          check-latest: true
 
       - name: SonarCloud Scan
         run: mvn -P sonarcloud -Dsonar.login=$SONAR_TOKEN verify sonar:sonar
