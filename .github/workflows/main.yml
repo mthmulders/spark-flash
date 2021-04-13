@@ -24,7 +24,7 @@ jobs:
           check-latest: true
 
       - name: Set up cache for ~./m2/repository
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v2.1.5
         with:
           path: ~/.m2/repository
           key: spark-flash-${{ hashFiles('**/pom.xml') }}
@@ -44,7 +44,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up cache for ~./m2/repository
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v2.1.5
         with:
           path: ~/.m2/repository
           key: spark-flash-${{ hashFiles('**/pom.xml') }}
@@ -74,7 +74,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up cache for ~./m2/repository
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v2.1.5
         with:
           path: ~/.m2/repository
           key: spark-flash-${{ hashFiles('**/pom.xml') }}
