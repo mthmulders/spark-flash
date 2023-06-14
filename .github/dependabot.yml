@@ -13,7 +13,7 @@ updates:
     time: "04:00"
   open-pull-requests-limit: 10
   ignore:
-    - dependency-name: "logback-classic"
+    - dependency-name: "ch.qos.logback:logback-classic"
       # Ignore version 1.4 and higher as they target Java 11
       # See https://logback.qos.ch/dependencies.html
       versions: ["[1.4,)"]
