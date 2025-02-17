@@ -273,7 +273,7 @@
                     </dependencies>
                     <configuration>
                         <outputFormats>
-                            <format>HTML2</format>
+                            <format>stryker-dashboard</format>
                         </outputFormats>
                         <timestampedReports>false</timestampedReports>
                     </configuration>
