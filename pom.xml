@@ -4,7 +4,7 @@
 
     <groupId>it.mulders.spark-flash</groupId>
     <artifactId>spark-flash</artifactId>
-    <version>0.1.3-SNAPSHOT</version>
+    <version>0.1.3</version>
 
     <name>Spark Flash</name>
     <url>https://github.com/mthmulders/spark-flash</url>
@@ -39,7 +39,7 @@
         <url>https://github.com/mthmulders/spark-flash</url>
         <connection>scm:git:https://github.com/mthmulders/spark-flash.git</connection>
         <developerConnection>scm:git:git@github.com:mthmulders/spark-flash.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>v0.1.3</tag>
   </scm>
 
     <issueManagement>
