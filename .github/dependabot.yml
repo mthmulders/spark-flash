@@ -15,3 +15,6 @@ updates:
       # Ignore version 1.4 and higher as they target Java 11
       # See https://logback.qos.ch/dependencies.html
       versions: ["[1.4,)"]
+    # EqualsVerifier 4.0 requires Java 17. Don't want to enforce that upon Spark Flash users (yet).
+    - dependency-name: "nl.jqno.equalsverifier:equalsverifier"
+      versions: [ "[4,)" ]
