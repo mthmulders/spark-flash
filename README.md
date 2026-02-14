@@ -34,7 +34,7 @@ First, add this module to your POM:
 <dependency>
     <groupId>it.mulders.spark-flash</groupId>
     <artifactId>spark-flash</artifactId>
-    <version>0.1.12</version>
+    <version>0.1.13</version>
 </dependency>
 ```
 
